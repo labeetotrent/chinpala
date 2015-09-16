@@ -121,7 +121,7 @@ $('document').ready(function () {
       el: '#map', lat: -27.445773, lng: 152.993616, zoom: 14, zoomControl : true,
       zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : false, scrollwheel: false
    });
-
+  map.setCenter({ lat: -27.445773, lng: 152.993616});
    // add address markers
    map.addMarker({ lat: -27.445773, lng: 152.993616, title: 'Thai Chinpala Kitchen',
   infoWindow: { content: '<p>Thai Chinpala Kitchen</p>' } });
