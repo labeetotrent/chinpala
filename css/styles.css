@@ -7,11 +7,11 @@ Author URI: http://webthemez.com/
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Marck Script', cursive;
 }
 body {
 	height: 100%;
-	font-family: 'Open Sans', sans-serif;
+font-family: 'Marck Script', cursive;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #663399;
@@ -37,7 +37,7 @@ p {
 	margin: 0 0 1em !important;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family:36px 'Open Sans', sans-serif;
+	font-family:36px 'Marck Script', cursive;
 }
 .fitImage {
 	max-width: 100%;
@@ -220,7 +220,7 @@ background: #957BBD;
 color:#F89F9F;
 	}
 .navbar-inverse .navbar-nav > .active {
-background: #895100;
+background: #957BBD;
 }
 /*  Sliders
 ==================================== */
@@ -313,10 +313,10 @@ border-bottom: 10px solid #957BBD;
 	width: 83%;
 	text-align: center;
 	margin: 23% auto 24px auto;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Marck Script', cursive;
 }
 .hero-text p {
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Marck Script', cursive;
 	padding: 0;
 	margin: 12px 8% 0;
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
@@ -377,7 +377,7 @@ border-bottom: 10px solid #957BBD;
 }
 .navbar-brand b {
 	color: #957BBD;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Marck Script', cursive;
 	font-weight: 900;
 }
 .navbar-brand b i {
@@ -415,7 +415,7 @@ border-bottom: 10px solid #957BBD;
 	margin: 17px;
 	padding: 6px 0px !important;
 	border-radius: 5px;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Marck Script', cursive;
 	font-weight: 400;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
@@ -557,7 +557,7 @@ line-height: 50px;
 }
 .heading h2 {
 	color: #222;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Marck Script', cursive;
 	text-transform:capitalize !important;
 	font-weight: normal !important;
 	padding:0 0 25px !important;
@@ -988,7 +988,7 @@ hr {
 }
 body {
 	margin: 0;
-	font-family: Arial, sans-serif;
+	font-family: 'Marck Script', cursive;
 }
 #navigation {
 	position: fixed;
