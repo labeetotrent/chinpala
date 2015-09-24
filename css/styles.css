@@ -227,15 +227,18 @@ background: #957BBD;
 
 .flex-direction-nav .flex-prev{
 left:0px;
+
 }
 .flex-direction-nav .flex-next{
 right:0px;
+
 }
 .flex-caption {
 zoom: 1;
 bottom: 35px;
 background-color: #000;z
 color: #171717;
+opacity:0.5;
 margin: 0;
 padding: 25px 25px 25px 30px;
 position: absolute;
@@ -1125,6 +1128,9 @@ font-size: 50px;
 @media (min-width: 768px) {
 .header .navbar-brand {
 	padding-left: 0;
+}
+.banner-container {
+	background-size: 200px;
 }
 .navbar-nav {
 	float: right;

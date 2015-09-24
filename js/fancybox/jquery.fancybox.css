@@ -105,9 +105,9 @@
 	width: 37px;
 	height: 37px;
 	cursor: pointer;
-	z-index: 9000; 	
-	opacity: 0.5;	
-	-webkit-transition: background 0.1s linear 0s, opacity 0.1s linear 0s;	
+	z-index: 9000;
+	opacity: 0.5;
+	-webkit-transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
 	   -moz-transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
 		    transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
@@ -158,10 +158,10 @@
 	z-index: 8040;
 	background-image: none;
 	background-color: #26292E;
-	
+
 	opacity: 0.5;
-	
-	-webkit-transition: background 0.1s linear 0s, opacity 0.1s linear 0s;	
+
+	-webkit-transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
 	   -moz-transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
 		    transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
@@ -246,13 +246,13 @@
 .fancybox-opened .fancybox-title h4{
 	font-size: 24px;
 	font-weight: 300;
-	margin-bottom: 10px;	
+	margin-bottom: 10px;
 }
 
 .fancybox-opened .fancybox-title p{
 	font-size: 16px;
 	font-weight: 300;
-	margin-bottom: 0;	
+	margin-bottom: 0;
 }
 
 .fancybox-title-float-wrap {
@@ -305,18 +305,18 @@
 	.fancybox-nav:hover span,
 	.fancybox-close,
 	.fancybox-close:hover {
-		background: transparent;	
+		background: transparent;
 	}
-	
+
 	.fancybox-close i {
 		left: 70px;
-		top: 10px;	
+		top: 10px;
 	}
 }
 
 @media (max-width: 320px) {
 	.fancybox-close i {
 		left: 30px;
-		top: 20px;	
+		top: 20px;
 	}
 }
