@@ -285,7 +285,7 @@ background: #663399;
 border-bottom: 10px solid #957BBD;
 }
 .addBg {
-	background: rgba(5, 5, 5, 0.94);
+	background: #663399;
 	transition: all 0.3s linear;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
@@ -464,6 +464,8 @@ border-bottom: 10px solid #957BBD;
 .darkBg .fa {
 	color: #957BBD;
 }
+
+
 #map {
 display: block;
 height: 486px;
@@ -730,12 +732,17 @@ color:#000;
 }
 .mark {
     padding: 12px 0;background:none;
+
+}
+.block-text {
+	min-height:370px;
 }
 .block-text p {
     color: #585858;
     font-family: Georgia;
     font-style: italic;
     line-height: 20px;
+
 }
 .sprite {
 }
