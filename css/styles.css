@@ -239,7 +239,7 @@ zoom: 1;
 bottom: 35px;
 background-color: #000;z
 color: #171717;
-opacity:0.5;
+opacity:0.1;
 margin: 0;
 padding: 25px 25px 25px 30px;
 position: absolute;
@@ -412,6 +412,7 @@ border-bottom: 10px solid #957BBD;
 	line-height: 36px;
 	text-align: center
 }
+
 .navbar-inverse .navbar-nav > li > a {
 	color: #fff;
 	font-size: 1.2em;
@@ -479,7 +480,7 @@ font-size:10px;
 	position: relative;
 	padding: 0px;
 	box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
-	/*background: url("../images/banner-bg.jpg") no-repeat;*/
+
 	background-size: 100% 100%;
 	background-size: cover;
 	position: relative;

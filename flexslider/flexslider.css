@@ -76,8 +76,8 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0 0 60px;
-  background: #957BBD;
+  margin: 75px 0 60px;
+  background-image: url("../images/texture.jpg") ;
 
   position: relative;
   zoom: 1;
@@ -93,9 +93,14 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
 }
 .flexslider .slides img {
-  height: 800px;
 
+  height: auto;
+  width:auto;
   margin:0 auto;
+ margin-top:50px;
+ margin-bottom:50px;
+ border:1px solid black;
+
 }
 .flex-viewport {
   max-height: 2000px;
