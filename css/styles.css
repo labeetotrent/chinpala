@@ -8,11 +8,12 @@ Author URI: http://webthemez.com/
 	margin: 0;
 	padding: 0;
 	font-family: 'Marck Script', cursive;
+	font-size:18px;
 }
 body {
 	height: 100%;
 font-family: 'Marck Script', cursive;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.7;
 	color: #663399;
 	-webkit-font-smoothing: antialiased;
@@ -468,6 +469,7 @@ display: block;
 height: 486px;
 width: 100%;
 background-color: #F6F4EF;
+font-size:10px;
 }
 /*--- Banner ----*/
 .banner-container {
@@ -566,7 +568,11 @@ line-height: 50px;
 	padding:0 0 25px !important;
 }
 #contactUs .heading h2 {
-	color: #fff;
+	color: #222;
+}
+#contactUs p {
+	font-size: 20px;
+	color:#858585;
 }
 .sub-heading {
 	padding: 15px 0;
@@ -649,6 +655,9 @@ border-top: 1px dashed rgba(163, 0, 70, 0.35);
 font-size: 24px;
 line-height: 36px;
 color:#000;
+}
+.dataTxt img {
+	border-radius:5%;
 }
 .fluid-video-wrapper {
 	margin-top: 18px;
@@ -772,6 +781,10 @@ font-weight: bold;
 .rel {
     position: relative;
 }
+
+.rel img {
+	border-radius:50%;
+}
 /* Team
     ---------------------------------------------------*/
 .team-member {
@@ -813,7 +826,8 @@ border: 1px solid #fff;
 	margin: 2px;
 }
 #contactUs {
- background:#222;
+ 	background: #DFD8EB;
+	color:#222;
 }
 #contactUs .btn {
 	border-radius: 0px !important;
@@ -1002,11 +1016,13 @@ body {
 	width: 200px;
 	background: #ffffff;
 	box-shadow: 0 10px 10px -10px #000000;
+
 }
 #navigation > li {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+
 }
 #navigation > li > a {
 	margin: 1px;
@@ -1016,6 +1032,7 @@ body {
 	padding: 5px;
 	text-decoration: none;
 	transition: all 400ms;
+
 }
 #navigation > li > a.current,  #navigation > li:hover > a {
 	background: #999999;
