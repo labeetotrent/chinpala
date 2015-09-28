@@ -335,7 +335,7 @@ border-bottom: 10px solid #957BBD;
 /*.carousel-inner*/
 #myCarousel {
 	margin-top: 50px;
-	border-bottom: 4px solid #957BBD;
+/*	border-bottom: 4px solid #957BBD;*/
 }
 .carousel-inner > .item {
 }
@@ -1210,10 +1210,13 @@ font-size: 50px;
 }
 
 }
-@media screen and (orientation: landscape) {
+@media only screen and
+(max-device-width: 1024px) and
+(orientation: landscape) {
 	.logoImg {
 		left:50px;
 	}
+}
 
 @media (max-width: 768px) {
 .banner-container {
@@ -1566,6 +1569,7 @@ color: #fff;
 	padding: 0px;
 	box-sizing: border-box;
 	opacity: 1;
+	background:black;
 }
 .isotopeWrapper article {
 	margin: 0px;
