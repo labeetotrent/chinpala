@@ -11,9 +11,7 @@ Author URI: http://webthemez.com/
 	font-size:18px;
 }
 
-.fb-like {
-	margin:0 auto;
-}
+
 .fb-like span{overflow:visible !important; width:450px !important; margin-right:-375px;}
 body {
 	height: 100%;
