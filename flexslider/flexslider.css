@@ -76,7 +76,7 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 75px 0 60px;
+  margin: 75px 0 0px;
   background-image: url("../images/texture.jpg") ;
 
   position: relative;
