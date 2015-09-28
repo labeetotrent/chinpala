@@ -373,11 +373,25 @@ border-bottom: 10px solid #957BBD;
 	line-height: 42px;
 	clear: both;
 }
+
+.logoImg {
+
+	position:absolute;
+	left:0;
+	height:70px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-top:10px;
+	max-height:100%;
+	width:auto;
+
+}
 /*----Nav ----*/
 .header .navbar-brand {
 	float: left;
 	line-height: 18px;
 	height: 50px;/*color:#a30046;*/
+
 }
 .navbar-brand b {
 	color: #957BBD;
@@ -1160,12 +1174,13 @@ font-size: 50px;
 
 }
 
+
 .navbar-nav {
 	float: right;
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: #fff;
-	font-size: 16px;
+	font-size: 30px;
 	padding: 6px 3px !important;
 	border-radius: 5px;
 	margin: 19px 10px;
@@ -1208,6 +1223,8 @@ padding:45px 0;
 }
 .header .navbar-nav > li > a {
 	padding: 25px 12px;
+	font-size: 14px;
+	margin: 0px;
 }
 .portfolio-item img {
 	text-decoration: none;
@@ -1235,12 +1252,15 @@ padding:45px 0;
 }
 }
 
+
+
 @media (max-width:760px) {
 .header .navbar-nav > li > a {
 	padding: 9px 12px !important;
 	font-size: 14px;
 	margin: 0px;
 }
+
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 	border-color: #A8A8A8;
 }
@@ -1255,6 +1275,7 @@ width: 100%;
 .header{
 background:#663399;
 }
+
 .hero-text2 h3 {
 font-size: 18px;
 color: #fff;
@@ -1369,6 +1390,7 @@ margin-bottom: 20px;
 .banner-container {
 	background-size: contain;
 }
+
 .da-slider {
 	height: 300px;
 }
