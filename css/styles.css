@@ -204,6 +204,13 @@ color: #fff;
 background: #000000;
 padding: 20px 0;
 border-top: 1px solid #1D1D1D;
+
+}
+#footer {
+	font-size:14px;
+}
+#footer a {
+	font-size:14px;
 }
 #home{
 background: #957BBD;
@@ -492,6 +499,7 @@ width: 100%;
 background-color: #F6F4EF;
 font-size:10px;
 }
+
 /*--- Banner ----*/
 .banner-container {
 	width: 100%;
@@ -593,7 +601,7 @@ line-height: 50px;
 }
 #contactUs p {
 	font-family:Georgia;
-	color:#858585;
+	color:black;
 }
 .sub-heading {
 	padding: 15px 0;
@@ -753,6 +761,7 @@ color:#000;
     padding: 12px 0;background:none;
 
 }
+
 .block-text {
 	min-height:370px;
 }
@@ -1201,10 +1210,31 @@ font-size: 50px;
 }
 
 }
+@media screen and (orientation: landscape) {
+	.logoImg {
+		left:50px;
+	}
 
 @media (max-width: 768px) {
 .banner-container {
 	background-size: contain;
+}
+#aboutImg {
+	display:none;
+}
+#reviews div p {
+	font-size:12px;
+}
+#reviews div a {
+	font-size:12px
+}
+.mark{
+	font-size:12px;
+
+}
+
+.block-text {
+	min-height:250px;
 }
 #services, #aboutUs, #wor, #plans, #contactUs{
 padding:45px 0;
@@ -1274,7 +1304,9 @@ padding:45px 0;
 	font-size: 14px;
 	margin: 0px;
 }
-
+#aboutImg {
+	display:none;
+}
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 	border-color: #A8A8A8;
 }
@@ -1289,7 +1321,9 @@ width: 100%;
 .header{
 background:#663399;
 }
-
+#aboutImg {
+	display:none;
+}
 .hero-text2 h3 {
 font-size: 18px;
 color: #fff;
@@ -1404,7 +1438,9 @@ margin-bottom: 20px;
 .banner-container {
 	background-size: contain;
 }
-
+#aboutImg {
+	display:none;
+}
 .da-slider {
 	height: 300px;
 }
