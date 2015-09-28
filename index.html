@@ -34,11 +34,20 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=270123606431205";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
 <header class="header">
 
   <div class="container">
-    <div class="logoImg">
-    <img src="images/logo2.png"></div>
+    <div>
+    <img src="images/logo2.png" class="logoImg"></div>
 
     <nav class="navbar navbar-inverse" role="navigation">
 
@@ -128,6 +137,7 @@
     <div class="heading text-center">
       <!-- Heading -->
       <h2>About Us</h2>
+      <div class="fb-like" data-href="https://www.facebook.com/THAI-Chinpala-Kitchen-286045784780466/timeline/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 
     </div>
     <div class="row feature design">

@@ -377,11 +377,10 @@ border-bottom: 10px solid #957BBD;
 .logoImg {
 
 	position:absolute;
-	left:0;
-	height:70px;
-	padding-bottom:10px;
-	padding-left:10px;
-	padding-top:10px;
+	left:10;
+	padding-top:15px;
+	height:60px;
+
 	max-height:100%;
 	width:auto;
 
@@ -1173,14 +1172,24 @@ font-size: 50px;
 	background-size: 100px;
 
 }
+.logoImg {
 
+	position:absolute;
+	padding-top:15px;
+	left:22vw;
+	height:60px;
+
+	max-height:100%;
+	width:auto;
+
+}
 
 .navbar-nav {
 	float: right;
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: #fff;
-	font-size: 30px;
+	font-size: 22px;
 	padding: 6px 3px !important;
 	border-radius: 5px;
 	margin: 19px 10px;
