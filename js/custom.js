@@ -119,7 +119,7 @@ $('document').ready(function () {
    // main directions
   map = new GMaps({
       el: '#map', lat: -27.445773, lng: 152.993616, zoom: 18, zoomControl : false,
-     panControl : false, scrollwheel: false
+     panControl : false, scrollwheel: false, draggable:false
    });
 
    // add address markers
