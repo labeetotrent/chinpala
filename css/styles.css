@@ -1248,6 +1248,13 @@ font-size: 50px;
 }
 
 }
+@media (max-height:1024px) {
+	.logoImg {
+		left:0px;
+	}
+}
+
+
 
 @media (max-width: 768px) {
 .banner-container {
