@@ -393,10 +393,10 @@ color: #3b5998 !important;
 
 	position:absolute;
 	left:10;
-	padding-top:15px;
-	height:60px;
+	padding-top:0px;
+	height:70px;
 
-	max-height:100%;
+
 	width:auto;
 
 }
@@ -1192,9 +1192,9 @@ font-size: 50px;
 .logoImg {
 
 	position:absolute;
-	padding-top:15px;
+	padding-top:0px;
 	left:22vw;
-	height:60px;
+	height:80px;
 
 	max-height:100%;
 	width:auto;
@@ -1418,8 +1418,8 @@ line-height: 18px;
 position: relative;
 float: right;
 padding: 9px 10px;
-margin-top: 11px;
-margin-right: 0px;
+margin-top: 20px;
+margin-right: 20px;
 margin-bottom: 9px;
 background-color: transparent;
 border: 1px solid transparent;
@@ -1444,6 +1444,7 @@ margin-bottom: 20px;
 .banner-container {
 	background-size: contain;
 }
+
 #aboutImg {
 	display:none;
 }
