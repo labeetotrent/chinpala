@@ -1198,6 +1198,38 @@ font-size: 50px;
 
 	position:absolute;
 	padding-top:0px;
+	left:5vw;
+	height:80px;
+
+	max-height:100%;
+	width:auto;
+
+}
+
+.navbar-nav {
+	float: right;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+	font-size: 22px;
+	padding: 6px 3px !important;
+	border-radius: 5px;
+	margin: 19px 10px;
+}
+
+}
+@media (min-width: 1024px) {
+.header .navbar-brand {
+	padding-left: 0;
+}
+.banner-container {
+	background-size: 100px;
+
+}
+.logoImg {
+
+	position:absolute;
+	padding-top:0px;
 	left:22vw;
 	height:80px;
 
@@ -1218,18 +1250,15 @@ font-size: 50px;
 }
 
 }
-@media only screen and
-(max-device-width: 1024px) and
-(orientation: landscape) {
-	.logoImg {
-		left:50px;
-	}
-}
 
 @media (max-width: 768px) {
 .banner-container {
 	background-size: contain;
 }
+.logoImg {
+	left:0px;
+}
+
 #aboutImg {
 	display:none;
 }
@@ -1444,6 +1473,14 @@ margin: 0px;
 margin-bottom: 20px;
 }
 }
+@media only screen and
+(max-device-width: 1024px) and
+(orientation: landscape) {
+	.logoImg {
+		left:50px;
+	}
+}
+
 
 @media (max-width: 320px) {
 .banner-container {
