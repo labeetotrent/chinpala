@@ -1250,7 +1250,7 @@ font-size: 50px;
 }
 @media (max-height:1024px) {
 	.logoImg {
-		left:0px;
+		left:5vw;
 	}
 }
 
