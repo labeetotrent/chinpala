@@ -10,8 +10,9 @@ Author URI: http://webthemez.com/
 	font-family: Georgia;
 	font-size:18px;
 }
-.fb-like {
-	margin-right:50px;
+.fb_iframe_widget {
+	margin-right:1vw;
+
 }
 
 .fb-like span{overflow:visible !important; width:450px !important; margin-right:-375px;}
