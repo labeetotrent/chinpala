@@ -78,6 +78,8 @@ html[xmlns] .flexslider .slides {
 .flexslider {
   margin: 75px 0 0px;
   background-image: url("../images/texture.jpg") ;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
 
   position: relative;
   zoom: 1;
