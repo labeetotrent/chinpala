@@ -12,6 +12,13 @@
 
 }
 
+#chef2 {
+	margin-left:2%;
+}
+#chef {
+	margin-top:31%;
+}
+
 
 .fb-like span{overflow:visible !important; width:450px !important; margin-right:-375px;}
 body {
@@ -1264,8 +1271,9 @@ font-size: 50px;
 	left:0px;
 }
 
-#aboutImg {
-	display:none;
+
+#chef2 {
+	margin-left:10%;
 }
 #reviews div p {
 	font-size:12px;
@@ -1349,7 +1357,10 @@ padding:45px 0;
 	font-size: 14px;
 	margin: 0px;
 }
-#aboutImg {
+#chef {
+	display:none;
+}
+#chef2 {
 	display:none;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -1366,8 +1377,11 @@ width: 100%;
 .header{
 background:#663399;
 }
-#aboutImg {
+#chef {
 	display:none;
+}
+#chef2 {
+	display: none;
 }
 .hero-text2 h3 {
 font-size: 18px;
@@ -1492,8 +1506,11 @@ margin-bottom: 20px;
 	background-size: contain;
 }
 
-#aboutImg {
+#chef {
 	display:none;
+}
+#chef2 {
+	display: none;
 }
 .da-slider {
 	height: 300px;
